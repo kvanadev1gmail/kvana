@@ -1,15 +1,26 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="navbar-inner">
     <div class="container">
-
+      <%= link_to "kvana", home_path, id: "logo" %>
       <nav>
         <ul class="nav pull-right">
           <li><%= link_to "Home", home_path %></li>
-          <li><%= link_to "Help", help_path %></li>
-          <li><%= link_to "About", help_path %></li>
-          <li><%= link_to "ContactUs", help_path %></li>
+          <li><%= link_to "About", about_path %></li>
+          <li><%= link_to "ContactUs", contact_path %></li>
+          <li><%= link_to "OurProjects", ourprojects_path %></li>
+          <li><%= link_to "Privacy&Terms", privacyandterms_path %></li>
         </ul>
       </nav>
+
+      <!--<nav>-->
+        <!--<%= link_to image_tag("kvana_logo.png", alt: "Kvana"), 'http://rubyonrails.org/' %>-->
+        <!--<h1>My CMS</h1>-->
+        <!--<p>We Rock The MobileWorld</p>-->
+      <!--</nav>-->
+
     </div>
   </div>
 </header>
+<div class="container">
+  <%= yield %>
+    </div>
