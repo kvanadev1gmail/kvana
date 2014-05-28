@@ -8,6 +8,7 @@ html {
 
 body {
   padding-top: 60px;
+//padding-bottom: 30px;
 }
 
 //body .modal{
@@ -31,6 +32,12 @@ textarea {
   margin-bottom: 10px;
 }
 
+.separator {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,19 +48,55 @@ h1 {
   font-size: 3em;
   letter-spacing: -2px;
   margin-bottom: 10px;
-//  margin-left: 10;
   text-align: left;
+//  background-color: transparent;
 
 }
 
 h2 {
   font-size: 1.2em;
   letter-spacing: -1px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center;
   font-weight: normal;
   color: #999;
 }
+h3{
+  font-size: 3em;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: normal;
+  color: #FF8000;
+}
+
+h4{
+  font-size: 3em;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: normal;
+  color: #009AE0;
+}
+h5
+{
+  font-size: 3em;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: normal;
+  color: #3445B3;
+}
+h6
+{
+  font-size: 3em;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: normal;
+  color: #FF8000;
+}
+
 
 p {
   font-size: 1.1em;
@@ -81,22 +124,52 @@ p {
   text-decoration: none;
 }
 
+
+/* contents */
+#content1{
+padding-top: 20px;
+//  border-top: 3px solid #e8e8e8;
+}
+#content2
+{
+  padding-top:500px;
+}
+//#content3
+//{
+//  padding-top: 420px;
+//}
+#content4
+{
+  padding-top: 420px;
+  padding-bottom: 50px;
+}
+
+
+///* footer */
 //
-//
-///* header */
-//
-//#logo {
-//  float: left;
-//  margin-right: 10px;
-//  font-size: 1.7em;
-//  color: white;
-//  text-transform: uppercase;
-//  letter-spacing: -1px;
-//  padding-top: 9px;
-//  font-weight: bold;
-//  line-height: 1;
-//  &:hover {
-//    color: white;
-//    text-decoration: none;
+//footer {
+//  margin-top: 45px;
+//  padding-top: 5px;
+//  border-top: 1px solid lightskyblue;
+//  color: $grayLight;
+//  a {
+//    color: $gray;
+//    &:hover {
+//      color: $grayDarker;
+//    }
+//  }
+//  small {
+//    float: left;
+//  }
+//  ul {
+//    float: right;
+//    list-style: none;
+//    li {
+//      float: left;
+//      margin-left: 10px;
+//    }
 //  }
 //}
+
+
+
