@@ -49,6 +49,8 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 10px;
   text-align: left;
+  font-family: "Times New Roman" ;
+
 //  background-color: transparent;
 
 }
@@ -101,6 +103,8 @@ h6
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+text-align: left;
+  //text-decoration-color: #ffffff;
 }
 
 
@@ -117,12 +121,64 @@ p {
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
+
 }
 
 #logo:hover {
   color: #fff;
   text-decoration: none;
+  padding-bottom: 7px;
 }
+
+
+/*footer*/
+/* Footer General */
+
+#footer {
+  padding:25px 0;
+  background: #363f48;
+text-align: center;
+}
+
+/* Footer Text on Left */
+
+#footer p {
+  font-size:13px;
+text-align: center;
+
+}
+
+/* Footer Social Icon on Right Generals */
+
+#footer .social {
+  padding-top:5px;
+  font-size:42px;
+text-align: center;
+}
+
+/* Footer Social Icon  */
+
+#footer i {
+  padding: 0px 5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+text-align: center;
+}
+
+/* Footer Social Icon on Hover */
+
+#footer i:hover {
+  color:#ffffff;
+text-align: center;
+}
+
+
+
+
+
 
 
 /* contents */
@@ -140,36 +196,192 @@ padding-top: 20px;
 //}
 #content4
 {
-  padding-top: 420px;
-  padding-bottom: 50px;
+  padding-top: 200px;
+  padding-bottom: 500px;
 }
 
+/*homepage*/
 
-///* footer */
+#div1 {
+  padding-bottom: 200px;
+  padding-top: 300px;
+  background-color: lightskyblue;
+//  height:25px;
+//  width: 170px;
+
+}
+#div2 {
+  background: #ffffff;
+padding-top: 50px;
+  padding-bottom: 800px;
+}
+#div3 {
+  background: #009C83;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+///*seven columns centered*/
+//#now-available
+//{
+//  text-align:center;
+//  font-size: 90px;
 //
-//footer {
-//  margin-top: 45px;
-//  padding-top: 5px;
-//  border-top: 1px solid lightskyblue;
-//  color: $grayLight;
-//  a {
-//    color: $gray;
-//    &:hover {
-//      color: $grayDarker;
-//    }
-//  }
-//  small {
-//    float: left;
-//  }
-//  ul {
-//    float: right;
-//    list-style: none;
-//    li {
-//      float: left;
-//      margin-left: 10px;
-//    }
-//  }
 //}
 
 
 
+
+
+/* 05. SIGN UP SECTION ================================================== */
+
+
+
+/* Sign up General */
+
+#signup {
+
+  background: #159b83;
+  color: #FFF;
+  padding: 60px 0 80px 0;
+  margin-top:25px;
+  font-family: 'latoregular', sans-serif;
+}
+
+
+//form {overflow: hidden;}
+
+
+/* Signup Title */
+
+#signup h2.now-available {
+  padding:20 20 15px 0;
+}
+
+ p.centered-text {
+
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Paragraph */
+
+//p {
+//  color: #9DA5AF;}
+//
+//p a {
+//  color:#647385;
+//  border-bottom: 1px dotted #888;
+//  -webkit-transition: all 0.5s ease-out;
+//  -moz-transition: all 0.5s ease-out;
+//  -o-transition: all 0.5s ease-out;
+//  transition: all 0.5s ease-out;}
+//
+//p a:hover {
+//  color:#34495e;}
+//
+//p.centered-text {
+//  text-align:center;
+//}
+
+
+
+#signup form {
+
+  margin-top: 30px;
+}
+
+/* Mail Input Send */
+
+#signup input {
+//  font-family: 'latoregular', sans-serif;
+//  -moz-transition:all .3s ease-in-out;
+//  -ms-transition:all .3s ease-in-out;
+//  -o-transition:all .3s ease-in-out;
+//  -webkit-transition:all .3s ease-in-out;
+//  border: none;
+//  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05) inset;
+//  border-radius: none;
+//  color: #333;
+//  height:55px;
+//  resize: vertical;
+//  font-size:13px;
+//  margin-bottom: 15px;
+//  letter-spacing:1px;
+//  padding: 9px 50px 8px;
+//  transition:all .3s ease-in-out;
+//  margin: -5px -50px;
+//  top:60%;
+//  left:90%;
+//  width:30%;
+//  text-align: left;
+}
+
+/* Button Send */
+
+#signup .submit{
+//  height:55px;
+//  width: 170px;
+//  margin: -5px -50px;
+//  position:relative;
+//  top:80%;
+//  left:50%;
+//  float: 500px;
+//  padding: 10px 10px 10px;
+//  font-family: 'latolight', sans-serif;
+//  letter-spacing:1px;
+////  float: left;
+//  display: block;
+//  border: none;
+//  cursor: pointer;
+//  font-size: 16px;
+//  color:#FFF;
+//  background:none;
+//  border: 1px solid #FFF;
+//  -webkit-appearance:none;
+//  -webkit-transition: all 0.2s ease-in-out;
+//  -moz-transition: all 0.2s ease-in-out;
+//  -ms-transition: all 0.2s ease-in-out;
+//  -o-transition: all 0.2s ease-in-out;
+//  transition: all 0.2s ease-in-out;
+//  text-align: left;
+//  padding-left: 50px;
+//margin: center;
+}
+
+
+/* Button Send Hover */
+
+#signup .submit:hover{
+  color:#f27c29;
+  background: #FFF;
+  cursor:pointer;
+  //margin: center;
+}
+
+/* Promise we do not spam */
+
+#signup .spam {
+//  padding:51px 20 20 20;
+//  font-family: 'latolight', sans-serif;
+//  color: #FFF;
+//  text-align: left;
+}
+
+/* Message if it's ok */
+
+#signup .msg-ok {
+  font-family: 'latolight', sans-serif;
+  color: #FFF;
+//  text-align: center;
+}
+
+//#signup .map-title {
+//  margin: 0;
+//  background-color: #159b83;
+//  color: #fff;
+//}
+//#signup .eight-columns
+//{
+//  padding: 20px,40px,53px;
+//}
