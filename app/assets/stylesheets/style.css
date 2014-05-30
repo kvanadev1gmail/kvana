@@ -1,3 +1,4 @@
+
 /*
 
 	01. Key Frames & Font Face
@@ -199,9 +200,9 @@ p.centered-text {
 #header {
     width:100%;
     height:60%;
-    min-height: 550px;
+    /*min-height: 550px;*/
     color:#FFF;
-    background-image:url('../img/top.png');
+    background-image:url('../images/dream_village.jpg');
     background-repeat:repeat-y;
     /*background-color:#159b83;*/
     -webkit-background-size: cover;
@@ -211,12 +212,14 @@ p.centered-text {
     background-attachment : fixed;  /* FIXED FOR IE */}
 
 #header .logo {
-    margin-top: 2%; }
+    margin-top: 2%;
+}
 
 
 
 #header h2 {
-    padding:0;	}
+    padding:0;
+}
 
 /* Picture on Header Don't touch  */
 
@@ -225,7 +228,8 @@ p.centered-text {
     padding:0px;
     margin: 0px;
     position: relative;
-    z-index: 3;}
+    z-index: 3;
+}
 
 
 
@@ -341,7 +345,7 @@ p.centered-text {
 #signup {
     background: #159b83;
     color: #FFF;
-    padding: 60px 0 80px 0;
+    padding: 100px 0 80px 0;
     margin-top:25px;
     font-family: 'latoregular', sans-serif;}
 
@@ -352,22 +356,23 @@ form {overflow: hidden;}
 /* Signup Title */
 
 #signup h2.now-available {
-    padding:0 0 15px 0;}
+    padding:0 0 15px 0;
+}
 
 #signup p {
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #signup form {
     margin-top: 30px;
 }
-#signup a.map {
-    color: #363f48;
-}
-#signup a.map:hover {
+/*#signup a.map {*/
+    /*color: #363f48;*/
+/*}*/
+/*#signup a.map:hover {*/
     /*color: #647385;*/
-    color: #4a5661;
-}
+    /*color: #4a5661;*/
+/*}*/
 /* Mail Input Send */
 
 #signup input {
@@ -387,16 +392,17 @@ form {overflow: hidden;}
     letter-spacing:1px;
     padding: 9px 10px 8px;
     transition:all .3s ease-in-out;
-    width:100%;}
+    width:70%;
+}
 
 /* Button Send */
 
 #signup .submit{
     height:55px;
-    width: 170px;
+    width: 100px;
     font-family: 'latolight', sans-serif;
     letter-spacing:1px;
-    float: left;
+    float: right;
     display: block;
     border: none;
     cursor: pointer;
@@ -409,27 +415,31 @@ form {overflow: hidden;}
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;}
+    transition: all 0.2s ease-in-out;
+}
 
 /* Button Send Hover */
 
 #signup .submit:hover{
     color:#f27c29;
     background: #FFF;
-    cursor:pointer;}
+    cursor:pointer;
+}
 
 /* Promise we do not spam */
 
 #signup .spam {
     padding:21px 0 0 0;
     font-family: 'latolight', sans-serif;
-    color: #FFF;}
+    color: #FFF;
+}
 
 /* Message if it's ok */
 
 #signup .msg-ok {
     font-family: 'latolight', sans-serif;
-    color: #FFF;}
+    color: #FFF;
+}
 
 #signup .map-title {
     margin: 0;
@@ -451,7 +461,10 @@ form {overflow: hidden;}
 /* Footer Text on Left */
 
 #footer p {
-    font-size:13px;}
+    font-size:15px;
+    float: left;
+    color: #ffffff;
+}
 
 /* Footer Social Icon on Right Generals */
 
@@ -462,7 +475,7 @@ form {overflow: hidden;}
 /* Footer Social Icon  */
 
 #footer i {
-    padding: 0px 5px;
+    padding: 20px 5px;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
@@ -472,7 +485,8 @@ form {overflow: hidden;}
 /* Footer Social Icon on Hover */
 
 #footer i:hover {
-    color:#FFF;}
+    color:#FFF;
+}
 
 
 
