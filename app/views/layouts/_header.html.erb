@@ -1,20 +1,28 @@
-<!--<header class="navbar navbar-fixed-top navbar-inverse">-->
-  <!--<div class="navbar-inner">-->
-    <!--<div class="container">-->
-      <!--<%= link_to "kvana", home_path, id: "logo" %>-->
-      <!--<nav>-->
-        <!--<ul class="nav pull-right">-->
-          <!--<li><%= link_to "Home", home_path %></li>-->
-          <!--<li><%= link_to "About", about_path %></li>-->
-          <!--<li><%= link_to "ContactUs", contact_path %></li>-->
-          <!--<li><%= link_to "OurProjects", ourprojects_path %></li>-->
-          <!--<li><%= link_to "Privacy&Terms", privacyandterms_path %></li>-->
-        <!--</ul>-->
-      <!--</nav>-->
-    <!--</div>-->
-  <!--</div>-->
-  <!--&lt;!&ndash;<nav><%= link_to image_tag("kvana_logo.png", alt: "Kvana"), 'http://rubyonrails.org/' %></nav>&ndash;&gt;-->
-<!--</header>-->
-<!--<div class="container">-->
-  <!--<%= yield %>-->
-    <!--</div>-->
+<header class="navbar navbar-fixed-top navbar-inverse">
+
+  <div class="navbar-inner">
+    <div class="navigation">
+      <nav>
+        <div id="kvana"> <%= link_to "Kvana Inc", home_path %></div>
+        <div id="navicons">
+
+        <ul class="navpull-right">
+          <li><%= link_to "Home", home_path %></li>
+          <li><%= link_to "About", about_path %></li>
+          <li><%= link_to "ContactUs", contact_path %></li>
+          <li><%= link_to "OurProjects", ourprojects_path %></li>
+          <li><%= link_to "Privacy&Terms", privacyandterms_path %></li>
+        </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!--<nav><%= link_to image_tag("kvana_logo.png", alt: "Kvana"), 'http://rubyonrails.org/' %></nav>-->
+</header> 
+<div class="container">
+  <%= yield %>
+    </div>
+
+
+
+

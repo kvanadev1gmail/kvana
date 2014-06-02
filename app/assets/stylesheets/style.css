@@ -1,4 +1,4 @@
-
+@import "bootstrap";
 /*
 
 	01. Key Frames & Font Face
@@ -12,6 +12,43 @@
 
 */
 
+
+
+/* universal */
+html {
+  overflow-y: scroll;
+}
+
+body {
+    padding-top: 0px;
+  padding-bottom: 0px;
+  }
+body .modal{
+    width: 80%;
+     margin-left:12 ;
+    }
+
+section {
+    overflow: auto;
+  }
+
+textarea {
+    resize: vertical;
+  }
+
+.center {
+  text-align: center;
+ }
+
+.center h1 {
+    margin-bottom: 10px;
+  }
+
+.separator {
+   margin: 0;
+    padding: 0;
+    display: block;
+ }
 
 
 
@@ -94,7 +131,10 @@ h2 {
     font-size:2.70em;
     line-height: 1.3em;
     font-family: 'latolight', sans-serif;
-    margin-top: 0.15em;}
+    margin-top: 0.15em;
+    margin-left: 70px;
+/*text-align: center;*/
+}
 
 h3 {
     color: #647385;
@@ -108,10 +148,13 @@ h3 {
 
 a {
     color: #647385;
-    text-decoration: none;}
+    text-decoration: none;
+    margin-left: 70px;
+}
 
 a:hover {
-    color: #34495e;}
+    color: #34495e;
+}
 
 /* Paragraph */
 
@@ -127,7 +170,8 @@ p a {
     transition: all 0.5s ease-out;}
 
 p a:hover {
-    color:#34495e;}
+    color:#34495e;
+}
 
 p.centered-text {
     text-align:center;
@@ -162,13 +206,15 @@ p.centered-text {
     height: 40px;
     display: inline-block;
     margin-top: 1em;
+    margin-left: 100px;
 
 }
 
 /* FOR FADING : DON'T REMOVE IT */
 
 .fade1,.fade2,.fade3,.fade4{
-    display:none;}
+    display:none;
+}
 
 
 #loading {
@@ -189,6 +235,41 @@ p.centered-text {
 
 /* 03. HEADER SECTION ================================================== */
 
+/*navigation bar*/
+
+/*#fade2*/
+/*{*/
+    /*text-align: center;*/
+    /*margin-top: 50%;*/
+    /*font-size: 5px;*/
+/*}*/
+
+
+/*#fade1logo*/
+/*{*/
+  /*width:30%;*/
+    /*height: 30%;*/
+/*}*/
+
+
+#kvana
+{
+float: left;
+   margin-left: 10%;
+    margin-top: 15px;
+    font-size: 35px;
+color: #ffffff;
+
+  /*color: #ffffff;*/
+
+}
+#navicons
+{
+    float: right;
+    position: relative;
+
+}
+
 
 
 /* Header Generals  */
@@ -200,9 +281,11 @@ p.centered-text {
 #header {
     width:100%;
     height:60%;
-    /*min-height: 550px;*/
+    min-height: 550px;
     color:#FFF;
-    background-image:url('../images/dream_village.jpg');
+    margin-top: 0px;
+    background-image:url('http://blog.gettyimages.com/wp-content/uploads/2013/01/Siberian-Tiger-Running-Through-Snow-Tom-Brakefield-Getty-Images-200353826-001.jpg');
+    /*background-color: yellow;*/
     background-repeat:repeat-y;
     /*background-color:#159b83;*/
     -webkit-background-size: cover;
@@ -214,8 +297,6 @@ p.centered-text {
 #header .logo {
     margin-top: 2%;
 }
-
-
 
 #header h2 {
     padding:0;
@@ -240,13 +321,15 @@ p.centered-text {
 /* Container  */
 
 .container {
-    z-index: 999; /* IMPORTANT */
+    z-index: 999; /* IMPORTANT*/
     position: relative;
-    background: #FFF;}
+    background: #FFF;
+}
 
 
 .cbp-so-scroller {
-    /*	overflow: hidden;*/}
+    	/*overflow: hidden;*/
+}
 
 
 /* Clear floats of children */
@@ -257,10 +340,12 @@ p.centered-text {
 }
 
 .cbp-so-section:after {
-    clear: both;}
+    clear: both;
+}
 
 .cbp-so-section:first-child {
-    margin-top:25px;}
+    margin-top:25px;
+}
 
 /* Sides */
 .cbp-so-side {
@@ -270,7 +355,8 @@ p.centered-text {
     overflow: hidden;
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
     -moz-transition: -moz-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;}
+    transition: transform 0.5s, opacity 0.5s;
+}
 
 .cbp-so-side-img {
     width: 100%;
@@ -279,43 +365,53 @@ p.centered-text {
     overflow: hidden;
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
     -moz-transition: -moz-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;}
+    transition: transform 0.5s, opacity 0.5s;
+}
 
 
 /* Clear floats of children */
 .cbp-so-side:before,
 .cbp-so-side:after {
     content: " ";
-    display: table;}
+    display: table;
+}
 
 .cbp-so-side:after {
-    clear: both;}
+    clear: both;
+}
 
 .cbp-so-side-right {
-    text-align: left;}
+    text-align: left;
+}
 
 .cbp-so-side-left {
-    text-align: left;}
+    text-align: left;
+}
 
 .cbp-so-side-right img {
-    float: left;}
+    float: left;
+}
 
 .cbp-so-side-left img {
-    float: right;}
+    float: right;
+}
 
 /* Initial state (hidden or anything else) */
 .cbp-so-init .cbp-so-side {
-    opacity: 0;}
+    opacity: 0;
+}
 
 .cbp-so-init .cbp-so-side-left {
     -webkit-transform: translateX(-80px);
     -moz-transform: translateX(-80px);
-    transform: translateX(-80px);}
+    transform: translateX(-80px);
+}
 
 .cbp-so-init .cbp-so-side-right {
     -webkit-transform: translateX(80px);
     -moz-transform: translateX(80px);
-    transform: translateX(80px);}
+    transform: translateX(80px);
+}
 
 /* Animated state */
 /* add you final states (transition) or your effects (animations) for each side */
@@ -345,7 +441,7 @@ p.centered-text {
 #signup {
     background: #159b83;
     color: #FFF;
-    padding: 100px 0 80px 0;
+    padding: 60px 0 80px 0;
     margin-top:25px;
     font-family: 'latoregular', sans-serif;}
 
@@ -470,7 +566,8 @@ form {overflow: hidden;}
 
 #footer .social {
     padding-top:5px;
-    font-size:42px;}
+    font-size:42px;
+}
 
 /* Footer Social Icon  */
 

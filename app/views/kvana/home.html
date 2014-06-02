@@ -40,47 +40,40 @@
 
 </head>
 
-
 <body>
 
 <!-- HEADER ############################################### -->
 <section id="header">
 
-
-  </div>
-
-  <div class="row">
-    <div class= "twelve columns" >
-
       <!--<div class="chef"><img width="200" src="img/chef_.png" alt="chef"></div>-->
-    </div>
 
-    <div class="row">
 
-      <div class="twelve columns">
+
+    <!--background-image: url(app/assets/images/nature.jpeg);-->
 
 
         <!-- Logo -->
-        <h1 class="fade1 logo"><%= link_to image_tag("dream_village.jpg", alt: "Kvana"), 'http://rubyonrails.org/' %></h1>
-
+        <!--<div class="fade1logo">-->
+            <!--&lt;!&ndash;background-image: url(app/assets/images/nature.jpeg);&ndash;&gt;-->
+            <!--<%= link_to image_tag("nature.jpeg", alt: "Kvana"), 'http://rubyonrails.org/' %>-->
+        <!--</div>-->
+    <!-- Logo -->
+    <h1 class="fade1 logo"><img width="200"  ><%= link_to image_tag("kvanalogo.png", alt: "Evee") %></h1>
         <!-- Title -->
 
-        <h2 class="fade2">World Best MobileApps, WebDesigns delivered to you.</h2>
+        <h2 class="fade2">We Rock The Mobile World.</h2>
 
 
-        <p class="fade3">
-          <a class="appstore" href="https://itunes.apple.com/us/app/sprig-phone-to-fork/id728975731?mt=8&uo=4" target="itunes_store"></a>
-        </p>
-      </div>
-
-
+        <!--<p class="fade3">-->
+          <!--<a class="appstore" href="https://itunes.apple.com/in/app/evee/id838951170?mt=8" target="itunes_store"></a>-->
+        <!--</p>-->
 
 
 
       <!-- Image coming from the bottom -->
 
 
-    </div>
+
 
 </section>
 
@@ -116,7 +109,7 @@
       <div class="five columns cbp-so-side-img cbp-so-side-right">
 
         <!--<img src="../../assets/images/alekhyaHomes.png" alt="Farm to Phone">-->
-          <%= link_to image_tag("Evee-Profile.png", alt: "Evee"), 'http://rubyonrails.org/' %>
+          <%= link_to image_tag("Evee-Profile.png", alt: "Evee"), 'https://itunes.apple.com/in/app/evee/id838951170?mt=8' %>
 
       </div>
 
@@ -235,32 +228,19 @@
                   <!-- End of the Form -->
 
               </form>
-
+    </div>
+  </div>
 </section>
 
 <!-- END SIGN UP SECTION ############################################### -->
 
-</div>
+
 <!-- FOOTER SECTION ############################################### -->
+</div>
 
-<section id="footer">
-
-  <div class="row">
-
-    <!-- Text from left -->
-
-    <div class="twelve columns pull_left">
-
-      <p>Questions about an order? Contact us at <a href="mailto:support@kvana.com">support@kvana.com</a>.</p>
-
-      <p>Interested in becoming a Sprig Server? <a href="https://docs.google.com/forms/d/1zgEo4Dd9NhMm66sMfNJgn63cOEbpCdiauScL300A0qw/viewform">Apply here!</a>
-      <p>© 2014 Kvana Inc | <a href="http://jobs.lever.co/kvana">careers</a> | <a href="http://www.twitter.com/kvana">twitter</a> | <a href="http://www.facebook.com/kvana">facebook</a> | <a href="http://www.kvana.com/privacy.html">privacy policy</a> | <a href="http://www.kvana.com/terms.html">terms of use</a></p>
-
-    </div>
-  </div>
-</section>
 <!-- END FOOTER SECTION ############################################### -->
-</div> <!-- end of container -->
+ <!-- end of container -->
+
 <!-- Grab Google CDN's jQuery, fall back to local if offline -->
 <script src="javascripts/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
@@ -317,90 +297,6 @@
 
 
 
-<!--&lt;!&ndash;<% provide(:title, 'Home') %>&ndash;&gt;-->
-<!--&lt;!&ndash;<%= link_to image_tag("kvana_logo.png", alt: "Kvana"), 'http://rubyonrails.org/' %>&ndash;&gt;-->
-<!--&lt;!&ndash;<hr style="border: 3px outset #e8e8e8;" xmlns="http://www.w3.org/1999/html">&ndash;&gt;-->
-
-
-<!--<div id="div1" xmlns="http://www.w3.org/1999/html">-->
-<!--&lt;!&ndash;<div style="background-image:url(http://www.html.am/images/image-codes/milford_sound_t.jpg);width:800px;height:740px;color:black;font-size:18px;">&ndash;&gt;-->
-<!--&lt;!&ndash;This text appears in front of the background image.&ndash;&gt;-->
-<!--&lt;!&ndash;</div>&ndash;&gt;-->
-
-<!--&lt;!&ndash;<div style="width: 30%; float:left">&ndash;&gt;-->
-<!--&lt;!&ndash;<h3><b>Evee</b></h3>&ndash;&gt;-->
-<!--&lt;!&ndash;<%= link_to image_tag("Evee-Profile.png", alt: "Evee"), 'http://rubyonrails.org/' %>&ndash;&gt;-->
-<!--&lt;!&ndash;</div>&ndash;&gt;-->
-<!--</div>-->
-
-
-
-
-
-<!--<div id="div2">-->
-
-<!--<div style="width: 20%; float:left">-->
-<!--&lt;!&ndash;<h3><b>Evee</b></h3>&ndash;&gt;-->
-<!--<%= link_to image_tag("Evee-Profile.png", alt: "Evee"), 'http://rubyonrails.org/' %>-->
-<!--</div>-->
-<!--<div style="width: 65%; float:right">-->
-<!--<br> <h1>An app to discover events based on your mood</h1>-->
-<!--<p>Humans feel emotions. You feel social, artistic, laid back, generous or active and then you want to satisfy that emotion.-->
-<!--You feel it first and then you take action.-->
-<!--<%= link_to image_tag("text_evee.png", alt: "text"), 'http://rubyonrails.org/' %>-->
-<!--recognizes the importance of your emotions and helps you find events based on your emotion and location.-->
-<!--Now, how cool is that?</p><br><br><br><br><br>-->
-
-<!--<div style="width: 30%; float:right">-->
-<!--&lt;!&ndash;<h4><b>StockCharts</b></h4>&ndash;&gt;-->
-<!--<%= link_to image_tag("stockchats-profile.png", alt: "StockCharts"), 'http://rubyonrails.org/' %>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-
-
-
-
-<!--<div id="div3">-->
-<!--<h2 class="now-available" style="color: #ffffff;font-size:40px;"><b>Mobile Application Development Company</b></h2>-->
-<!--<p class = "centered-text">End to End Mobile Solutions and application development on wide variety of platforms including <br>&nbsp; android<br>&nbsp; iphone/ipad <br>&nbsp; blackberry <br>&nbsp; TIZEN <br>&nbsp; Symbain and Windows Phone </p>-->
-
-
-<!-- SIGN UP SECTION ############################################### -->
-
-<!--<section id="signup">-->
-
-<!--<div class="row">-->
-
-<!--&lt;!&ndash; Title &ndash;&gt;-->
-
-<!--<form>-->
-<!--&lt;!&ndash; Input of E-Mail &ndash;&gt;-->
-
-<!--<div class="eight-columns">-->
-
-<!--<input type="email" value="" placeholder="ENTER YOUR EMAIL TO GET UPDATES" name="EMAIL" class="email">-->
-
-<!--</div>-->
-
-<!--&lt;!&ndash; Send Button &ndash;&gt;-->
-
-<!--<div class="four columns">-->
-
-<!--<input name="subscribe" type="submit" class="submit" value="SEND" />-->
-
-<!--</div>-->
-
-<!--&lt;!&ndash; End of the Form &ndash;&gt;-->
-
-<!--</form>-->
-
-
-<!--</div>-->
-
-<!--</section>-->
-<!--</div>-->
 
 
 
