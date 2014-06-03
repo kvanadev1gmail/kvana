@@ -2,7 +2,6 @@ Rails.application.routes.draw do
 
 
 
-
   get 'kvana/ourprojects'
 
   get 'kvana/privacyandterms'
@@ -16,11 +15,11 @@ Rails.application.routes.draw do
 
   root  'kvana#home'
   match '/home', to:'kvana#home',     via:'get'
-  match '/help',    to: 'kvana#help',    via: 'get'
-  match '/about',   to: 'kvana#about',   via: 'get'
-  match '/contact', to: 'kvana#contactUs', via: 'get'
-  match '/ourprojects', to: 'kvana#ourprojects', via: 'get'
-  match '/privacyandterms', to: 'kvana#privacyandterms', via: 'get'
+  match '/help',    to:'kvana#help',    via:'get'
+  match '/about',   to:'kvana#about',   via:'get'
+  match '/contact', to:'kvana#contactUs', via:'get'
+  match '/ourprojects', to:'kvana#ourprojects', via:'get'
+  match '/privacyandterms', to:'kvana#privacyandterms', via:'get'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

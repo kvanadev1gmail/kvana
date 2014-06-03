@@ -1,22 +1,20 @@
 <% provide(:title, 'Ourprojects') %>
-
-
-<h1 style="background-color:lightskyblue;">OurProjects</h1>
+<div class="ourprojects" >OurProjects</div>
 <!--<h1>OurProjects</h1>-->
 
 
-<div >
-<div id="content1">
+<div>
 
+<div id="content1">
   <div style="width: 20%; float:left">
     <h3><b>Evee</b></h3>
-    <%= link_to image_tag("Evee-Profile.png", alt: "Evee"), 'http://rubyonrails.org/' %>
+    <%= link_to image_tag("Evee-Profile.png") %>
   </div>
   <div style="width: 75%; float:right">
    <br><br> <h1>An app to discover events based on your mood</h1>
     <p>Humans feel emotions. You feel social, artistic, laid back, generous or active and then you want to satisfy that emotion.
       You feel it first and then you take action.
-      <%= link_to image_tag("text_evee.png", alt: "text"), 'http://rubyonrails.org/' %>
+      <%= link_to image_tag("text_evee.png") %>
       recognizes the importance of your emotions and helps you find events based on your emotion and location.
       Now, how cool is that?</p>
     <h1>Give it a try, it’s free!</h1>
@@ -25,32 +23,38 @@
       Accurate mapping of events and emotions<br>
       Built in directions to events<br>
       Ability to Favorite and Archive interesting events<br>
-    <div style="width: 50%; float:left"><%= link_to image_tag("apple-istore.png", alt: "Apple"), 'https://itunes.apple.com/in/app/evee/id838951170?mt=8' %></div>
-    <div style="width: 50%; float:right"><%= link_to image_tag("playstore.png", alt: "Apple" ), 'https://play.google.com/store/apps/details?id=com.alacrity.evee' %></div>
+    <div style="width: 50%; float:left"><%= link_to image_tag("apple-istore.png"), 'https://itunes.apple.com/in/app/evee/id838951170?mt=8' %></div>
+    <div style="width: 50%; float:right"><%= link_to image_tag("playstore.png"), 'https://play.google.com/store/apps/details?id=com.alacrity.evee' %></div>
  </div>
  </div>
 
 
 
 <div id="content2">
-  <div style="width: 20%; float:left">
-    <h4><b>StockCharts</b></h4>
-    <%= link_to image_tag("stockchats-profile.png", alt: "StockCharts"), 'http://rubyonrails.org/' %>
+  <div style="width: 20%; float:right">
+    <h3><b>StockCharts</b></h3>
+    <%= link_to image_tag("stockchats-profile.png") %>
   </div>
   <div style="width: 75%; float:right">
-
+    <h1>An app to give you stockchats</h1>
+<p>Who thought making high-quality financial charts could be so easy? We have the tools, educational information, expert opinions, and support you need to understand the markets.
+  Just remember that while anyone can use our free tools, only subscribers have access to our most powerful features. Why not sign up for a 10-day FREE trial to see for yourself?</p>
 </div>
 </div>
 
 
-
+  <div style="padding-bottom: 40%">
   <div id="content4">
     <div style="width: 20%; float:left">
-      <h6><b>AlekhyaHomes</b></h6>
-      <%= link_to image_tag("alekhyaHomes.png", alt: "Alekhya"), 'http://rubyonrails.org/' %>
+      <h3><b>AlekhyaHomes</b></h3>
+      <%= link_to image_tag("alekhyaHomes.png") %>
     </div>
     <div style="width: 75%; float:right">
+      <h1>Alekhya Homes</h1>
+      <p>"Alekhya" means a beautiful picture that cannot be expressed in words.
+        To us, the true meaning of who we are, is summed up in the legendary Geoffrey Bawa's words "Architecture cannot be totally explained but must be experienced."</p>
       </div>
   </div>
 </div>
 
+</div>
