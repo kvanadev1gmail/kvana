@@ -58,11 +58,11 @@ textarea {
 
 @font-face {
     font-family: 'latoregular';
-    src: url('../fonts/lato/Lato-Regular.eot');
-    src: url('../fonts/lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/lato/Lato-Regular.woff') format('woff'),
-    url('../fonts/lato/Lato-Regular.ttf') format('truetype'),
-    url('../fonts/lato/Lato-Regular.svg#latoregular') format('svg');
+    src: url('/assets/lato/Lato-Regular.eot');
+    src: url('/assets/lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/assets/lato/Lato-Regular.woff') format('woff'),
+    url('/assets/lato/Lato-Regular.ttf') format('truetype'),
+    url('/assets/lato/Lato-Regular.svg#latoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -70,11 +70,11 @@ textarea {
 
 @font-face {
     font-family: 'latolight';
-    src: url('../fonts/lato/Lato-Light-webfont.eot');
-    src: url('../fonts/lato/Lato-Light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/lato/Lato-Light-webfont.woff') format('woff'),
-    url('../fonts/lato/Lato-Light-webfont.ttf') format('truetype'),
-    url('../fonts/lato/Lato-Light-webfont.svg#latolight') format('svg');
+    src: url('/assets/lato/Lato-Light-webfont.eot');
+    src: url('/assets/lato/Lato-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/lato/Lato-Light-webfont.woff') format('woff'),
+    url('/assets/lato/Lato-Light-webfont.ttf') format('truetype'),
+    url('/assets/lato/Lato-Light-webfont.svg#latolight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -82,11 +82,11 @@ textarea {
 
 @font-face {
     font-family: 'latobold';
-    src: url('../fonts/lato/Lato-Bold-webfont.eot');
-    src: url('../fonts/lato/Lato-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/lato/Lato-Bold-webfont.woff') format('woff'),
-    url('../fonts/lato/Lato-Bold-webfont.ttf') format('truetype'),
-    url('../fonts/lato/Lato-Bold-webfont.svg#latobold') format('svg');
+    src: url('/assets/lato/Lato-Bold-webfont.eot');
+    src: url('/assets/lato/Lato-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/lato/Lato-Bold-webfont.woff') format('woff'),
+    url('/assets/lato/Lato-Bold-webfont.ttf') format('truetype'),
+    url('/assets/lato/Lato-Bold-webfont.svg#latobold') format('svg');
     font-weight: normal;
     font-style: normal;
 
